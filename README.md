@@ -1,4 +1,4 @@
-# Bsy - A backend for idle hands
+# Bsy - A backend for idl hands
 The phrase "The devil makes work for idle hands to do" has been around for centuries, but
 its meaning can still be applied in a modern context. Finding yourself worrying without cause, 
 your mind wandering to darker corners, and your body pacing as you try to out-walk the shadows 

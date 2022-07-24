@@ -1,0 +1,49 @@
+---
+inherit_mode:
+  merge:
+    - Exclude
+
+require:
+  - rubocop-performance
+  - rubocop-rails
+
+Layout/HashAlignment:
+  EnforcedColonStyle:
+    - key
+    - table
+  EnforcedHashRocketStyle:
+    - key
+    - table
+
+Metrics/AbcSize:
+  Exclude:
+    - db/migrate/**/*
+
+Metrics/BlockLength:
+  Exclude:
+    - config/environments/*
+    - spec/factories/**/*.rb
+    - spec/**/*_spec.rb
+    - spec/support/**/*_context.rb
+    - spec/support/**/*_examples.rb
+
+Metrics/MethodLength:
+  Exclude:
+    - db/migrate/**/*
+
+Rails/I18nLocaleTexts:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Exclude:
+    - db/migrate/**/*
+
+Style/Documentation:
+  Enabled: false
+
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  TargetRailsVersion: 6.0
+  TargetRubyVersion: 2.7
+  NewCops: enable
